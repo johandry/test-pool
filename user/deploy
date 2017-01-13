@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo
+echo "Deploying to Hostname-1: "
+echo
+while read line; do
+  echo "  $line"
+done
+echo
+echo "Deploy is Done!"
+echo
